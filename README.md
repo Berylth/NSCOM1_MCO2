@@ -16,7 +16,7 @@ Implementation of the File Transport Protocol (FTP) Client and Server based on R
     java Server [Server_port]
     ```
 
-3) Run the FTP client via the command:(Replace Server_ip and Server_port with the actual value)
+3) Run the FTP client via the command: (Replace Server_ip and Server_port with the actual value)
     ```
     java Client [Server_ip] [Server_port]
     ```
