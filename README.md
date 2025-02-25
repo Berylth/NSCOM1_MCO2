@@ -11,14 +11,14 @@ Implementation of the File Transport Protocol (FTP) Client and Server based on R
     git clone https://github.com/Berylth/NSCOM1_MCO2.git
     ```
 
-2) Run the FTP server via the command:
+2) Run the FTP server via the command: (Replace Server_port with the actual value)
     ```
-    java Server
+    java Server [Server_port]
     ```
 
-3) Run the FTP client via the command:
+3) Run the FTP client via the command:(Replace Server_ip and Server_port with the actual value)
     ```
-    java Client
+    java Client [Server_ip] [Server_port]
     ```
 
 4) Use the 'HELP' command to see the list of command supported by the application by typing:
