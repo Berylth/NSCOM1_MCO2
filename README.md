@@ -35,7 +35,7 @@ Implementation of the File Transport Protocol (FTP) Client and Server based on R
 Below is the list of commands supported by the application along with their description and use case.
 
 1) USER [username]
-  - Command to specify the username upon login. This command must be run first before any other commands other than 'HELP' and 'QUIT'.
+    - Command to specify the username upon login. This command must be run first before any other commands other than 'HELP' and 'QUIT'.
 2) PASS [password]
   - Command to specify the password upon login. This command must be run after the USER command.
 3) PWD
