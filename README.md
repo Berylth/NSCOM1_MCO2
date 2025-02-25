@@ -7,24 +7,24 @@ Implementation of the File Transport Protocol (FTP) Client and Server based on R
 
 ## How to run
 1) Download the repository via git:  
-  ```
-  git clone https://github.com/Berylth/NSCOM1_MCO2.git
-  ```
+    ```
+    git clone https://github.com/Berylth/NSCOM1_MCO2.git
+    ```
 
 2) Run the FTP server via the command:
-  ```
-  java Server
-  ```
+    ```
+    java Server
+    ```
 
 3) Run the FTP client via the command:
-  ```
-  java Client
-  ```
+    ```
+    java Client
+    ```
 
 4) Use the 'HELP' command to see the list of command supported by the application by typing:
-  ```
-  HELP
-  ```
+    ```
+    HELP
+    ```
 
 5) The following credentials can be used to login: (username:password)
 - john:1234 
