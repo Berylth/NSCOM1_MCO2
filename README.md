@@ -10,6 +10,7 @@ Implementation of the File Transport Protocol (FTP) Client and Server based on R
   ```
   git clone https://github.com/Berylth/NSCOM1_MCO2.git
   ```
+
 2) Run the FTP server via the command:
   ```
   java Server
