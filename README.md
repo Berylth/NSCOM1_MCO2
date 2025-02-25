@@ -34,33 +34,33 @@ HELP
 Below is the list of commands supported by the application along with their description and use case.
 
 1) USER [username]
-- Command to specify the username upon login. This command must be run first before any other commands other than 'HELP' and 'QUIT'.
+  - Command to specify the username upon login. This command must be run first before any other commands other than 'HELP' and 'QUIT'.
 2) PASS [password]
-- Command to specify the password upon login. This command must be run after the USER command.
+  - Command to specify the password upon login. This command must be run after the USER command.
 3) PWD
-- Shows the present working directory of the FTP server.
+  - Shows the present working directory of the FTP server.
 4) CWD [directory]
-- Allows the user to change directory within the FTP server.
+  - Allows the user to change directory within the FTP server.
 5) CDUP
-- Allows the user to move up the directory within the FTP server.
+  - Allows the user to move up the directory within the FTP server.
 6) MKD [directory]
-- Makes a new directory within the FTP server.
+  - Makes a new directory within the FTP server.
 7) RMD [directory]
-- Removes an existing directory within the FTP server.
+  - Removes an existing directory within the FTP server.
 8) PASV
-- Enables Passive mode for data transfer. Creates a new sockets specifically for data transfers. This command must be run first before 'LIST', 'RETR', and 'STOR'.
+  - Enables Passive mode for data transfer. Creates a new sockets specifically for data transfers. This command must be run first before 'LIST', 'RETR', and 'STOR'.
 9) LIST [directory]
-- List all files within the current directory if the directory name is not specified by the user. Else, lists all files within the specified directory.
+  - List all files within the current directory if the directory name is not specified by the user. Else, lists all files within the specified directory.
 10) RETR [pathname]
-- Downloads a file from the FTP server based on the specified path.
+  - Downloads a file from the FTP server based on the specified path.
 11) DELE [pathname]
-- Deletes a file from the FTP server based on the specified path.
+  - Deletes a file from the FTP server based on the specified path.
 12) STOR [filename]
-- Uploads a file from the FTP server.
+  - Uploads a file from the FTP server.
 13) HELP [command]
-- Shows the list of commands. If the command name is specified, shows the specific usage of that command.
+  - Shows the list of commands. If the command name is specified, shows the specific usage of that command.
 14) QUIT
-- Terminates the session between the FTP Client and Server.
+  - Terminates the session between the FTP Client and Server.
   
 ## Members
 - Loja, Kyle Flor
