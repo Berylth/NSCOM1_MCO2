@@ -20,7 +20,10 @@ java Server
 java Client
 ```
 
-4) Use the 'HELP' command to see the list of command supported by the application by typing:`HELP`
+4) Use the 'HELP' command to see the list of command supported by the application by typing:
+```
+HELP
+```
 
 5) The following credentials can be used to login: (username:password)
 - john:1234 
