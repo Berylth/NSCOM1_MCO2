@@ -1,4 +1,4 @@
-# NSCOM1_MCO2
+# NSCOM1_MCO2: FTP Client and Server in Java 
 Implementation of the File Transport Protocol (FTP) Client and Server based on RFC 259. While, the FTP server only allows up to one-connection as it is not multithreaded, it supports various commands relating to directories such as PWD, MKD, DEL. 
 
 ## Pre-requisites
