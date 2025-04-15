@@ -27,9 +27,9 @@ Implementation of the File Transport Protocol (FTP) Client and Server based on R
     ```
 
 5) The following credentials can be used to login: (username:password)
-- john:1234 
-- jane:5678
-- doe:qwerty
+    - john:1234 
+    - jane:5678
+    - doe:qwerty
   
 ## Command list
 Below is the list of commands supported by the application along with their description and use case.
